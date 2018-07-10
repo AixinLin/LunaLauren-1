@@ -1,41 +1,36 @@
 //
-//  menuController.swift
+//  carpoolAdViewController.swift
 //  LunaLauren
 //
-//  Created by Luna Cao on 2018/7/7.
-//  Copyright © 2018年 Luna Cao. All rights reserved.
+//  Created by 林蔼欣 on 2018-07-08.
+//  Copyright © 2018 Luna Cao. All rights reserved.
 //
 
 import UIKit
 
-class menuController: UIViewController {
+class carpoolAdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       
-        
+
         // Do any additional setup after loading the view.
     }
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    ////////////////////////////////////////////
 
-    @IBOutlet weak var sendAd: UIButton!
     
-    
-    @IBAction func turnSendAd(_ sender: UIButton) {
-        let sendAdTurn = sendAdViewContronller()
-        self.navigationController?.pushViewController(sendAdTurn, animated: true)
+    //button to go back to main
+    @IBOutlet weak var back: UIButton!
+    @IBAction func goback(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
     }
     
-
-
+    
+    
     /*
     // MARK: - Navigation
 

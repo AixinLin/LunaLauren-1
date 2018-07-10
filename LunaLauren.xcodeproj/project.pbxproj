@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */; };
+		517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */; };
+		517C3C2920F3C9E0008A34DE /* myMessegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */; };
 		518F57C720EE89D300C97453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57C620EE89D300C97453 /* AppDelegate.swift */; };
 		518F57C920EE89D300C97453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518F57C820EE89D300C97453 /* ViewController.swift */; };
 		518F57CC20EE89D300C97453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518F57CA20EE89D300C97453 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 		51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */; };
 		51CB29BE20EE8DDE000B1EF3 /* otherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */; };
 		51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */; };
+		FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */; };
+		FA85251E20F2F692004E1314 /* sendAdViewContronller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */; };
+		FA85252020F2FA4E004E1314 /* carpoolAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alreadySentAdViewController.swift; sourceTree = "<group>"; };
+		517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewController.swift; sourceTree = "<group>"; };
+		517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMessegeViewController.swift; sourceTree = "<group>"; };
 		518F57C320EE89D300C97453 /* LunaLauren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunaLauren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		518F57C620EE89D300C97453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		518F57C820EE89D300C97453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +70,9 @@
 		51CB29BB20EE8C57000B1EF3 /* xianzhiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xianzhiViewController.swift; sourceTree = "<group>"; };
 		51CB29BD20EE8DDE000B1EF3 /* otherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherViewController.swift; sourceTree = "<group>"; };
 		51CCF6A620EE8041002BDFE7 /* CarpoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolViewController.swift; sourceTree = "<group>"; };
+		FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewController.swift; sourceTree = "<group>"; };
+		FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendAdViewContronller.swift; sourceTree = "<group>"; };
+		FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carpoolAdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,12 @@
 		518F57C520EE89D300C97453 /* LunaLauren */ = {
 			isa = PBXGroup;
 			children = (
+				FA85251B20F2D8F0004E1314 /* sideMenuTableViewController.swift */,
+				FA85251D20F2F692004E1314 /* sendAdViewContronller.swift */,
+				517C3C2420F3C8E3008A34DE /* alreadySentAdViewController.swift */,
+				517C3C2620F3C96E008A34DE /* myCollectionViewController.swift */,
+				517C3C2820F3C9E0008A34DE /* myMessegeViewController.swift */,
+				FA85251F20F2FA4E004E1314 /* carpoolAdViewController.swift */,
 				51988B9E20F160DD00FA38F9 /* SWRevealViewController */,
 				518F57C620EE89D300C97453 /* AppDelegate.swift */,
 				518F57C820EE89D300C97453 /* ViewController.swift */,
@@ -288,12 +306,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CB29BE20EE8DDE000B1EF3 /* otherViewController.swift in Sources */,
+				FA85252020F2FA4E004E1314 /* carpoolAdViewController.swift in Sources */,
 				51CB29BC20EE8C57000B1EF3 /* xianzhiViewController.swift in Sources */,
 				51CCF6A720EE8041002BDFE7 /* CarpoolViewController.swift in Sources */,
 				518F57C920EE89D300C97453 /* ViewController.swift in Sources */,
 				51988BAA20F1777F00FA38F9 /* revealController.swift in Sources */,
+				517C3C2920F3C9E0008A34DE /* myMessegeViewController.swift in Sources */,
+				517C3C2720F3C96E008A34DE /* myCollectionViewController.swift in Sources */,
 				51988BA820F1638B00FA38F9 /* menuController.swift in Sources */,
 				518F57C720EE89D300C97453 /* AppDelegate.swift in Sources */,
+				517C3C2520F3C8E3008A34DE /* alreadySentAdViewController.swift in Sources */,
+				FA85251C20F2D8F0004E1314 /* sideMenuTableViewController.swift in Sources */,
+				FA85251E20F2F692004E1314 /* sendAdViewContronller.swift in Sources */,
 				51988BA220F1611E00FA38F9 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
